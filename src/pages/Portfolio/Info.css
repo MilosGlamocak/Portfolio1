@@ -1,0 +1,61 @@
+.info {
+    height: 92vh;
+    max-width: 70%;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%, -50%);
+}
+
+.icon {
+    scale: 130%;
+    position: absolute;
+    top: 93%;
+    transition-duration: 0.7s;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+.iconYouTube {
+    left: 75%;
+    transform: translate(-50%, -50%);
+    width: 43px;
+    height: 43px;
+}
+
+.iconInsta {
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+
+.iconFacebook {
+    left: 85%;
+    transform: translate(-50%, -50%);
+}
+
+.iconX {
+    left: 90%;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    height: 30px;
+}
+
+.iconLinkedIn {
+    left: 95%;
+    transform: translate(-50%, -50%);
+}
+
+.darkIcon {
+    background-color: none !important;
+    color: white;
+}
+
+.lightIcon {
+    background-color: none !important;
+    filter: invert(1);
+}
+
+
+

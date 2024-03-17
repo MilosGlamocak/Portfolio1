@@ -1,0 +1,1 @@
+declare module '@lanaco/lnc-react-ui';
