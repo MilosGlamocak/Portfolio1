@@ -9,6 +9,7 @@ import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 import '../Portfolio/Portfolio.css';
 import { ThemeContext } from './Root';
+import ReactThreeFiber from '../../components/React Three Fiber';
 
 
 function Portfolio() {
@@ -35,17 +36,18 @@ function Portfolio() {
         <Container className={`bg ${theme === 'dark' ? 'dark' : 'light'}`}
         maxWidth = {false}
         onMouseMove={(e) => setPosition({x: e.clientX, y: e.clientY})}
+        style={{overflowY: 'hidden'}}
         
         > 
         
-       
+        
         <Container className ={`cont`}
         maxWidth = {false}
         >
             
-            <div className='blur'><div className={`blob ${theme === 'dark' ? 'blobDark' : 'blobLight'}`} style={{translate: `${position.x-900}px ${position.y}px `, transitionDuration: '0s'}}></div></div>
+{/*            <div className='blur'><div className={`blob ${theme === 'dark' ? 'blobDark' : 'blobLight'}`} style={{translate: `${position.x-900}px ${position.y}px `, transitionDuration: '0s'}}></div></div>*/}
 
-            
+           
             <h1 className={`header ${theme === 'dark' ? 'dark' : 'light'}`}>Milos Glamocak</h1>
             <p className={`profession ${theme === 'dark' ? 'dark' : 'light'}`}>Front-end Developer</p>
             <nav className='navContainer'>

@@ -19,6 +19,7 @@ import { ParallaxProvider } from 'react-scroll-parallax';
 
 
 import Root from './pages/Portfolio/Root';
+import ReactThreeFiber from './components/React Three Fiber';
 
 
 
@@ -26,9 +27,7 @@ import Root from './pages/Portfolio/Root';
 function App() {
 return (
   
-     <Root />
- 
-  
+    <Root />
 )
   
 }
